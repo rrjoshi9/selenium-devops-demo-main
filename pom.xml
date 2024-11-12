@@ -53,9 +53,9 @@
 					</suiteXmlFiles>
 				</configuration>
 			<plugin>
-                		<groupId>org.codehaus.mojo</groupId>
-                		<artifactId>cobertura-maven-plugin</artifactId>
-                		<version>2.7</version> <!-- Use the latest version -->
+                		<groupId>net.sourceforge.cobertura</groupId>
+                		<artifactId>cobertura</artifactId>
+                		<version>4.26.0</version> <!-- Use the latest version -->
                 		<executions>
                     			<execution>
                         			<goals>
